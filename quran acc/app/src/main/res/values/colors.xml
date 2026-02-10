@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Islamic Theme -->
+    <color name="primary">#00897B</color>
+    <color name="primary_dark">#00695C</color>
+    <color name="primary_light">#4DB6AC</color>
+    <color name="accent">#FFD700</color>
+    <color name="accent_dark">#FFC107</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_dark">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_accent">#212121</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Verification Badge -->
+    <color name="verified_badge">#4CAF50</color>
+    <color name="unverified_badge">#9E9E9E</color>
+
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Ripple -->
+    <color name="ripple">#20000000</color>
+
+    <!-- Splash Screen -->
+    <color name="splash_background">#00897B</color>
+
+    <!-- Gold Gradient -->
+    <color name="gold_start">#FFD700</color>
+    <color name="gold_end">#FFC107</color>
+
+    <!-- Green Shades -->
+    <color name="green_light">#E8F5E9</color>
+    <color name="green_medium">#81C784</color>
+    <color name="green_dark">#2E7D32</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+    <color name="black_overlay">#80000000</color>
+</resources>

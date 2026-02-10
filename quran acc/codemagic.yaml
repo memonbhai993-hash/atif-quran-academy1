@@ -1,0 +1,36 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    environment:
+      java: 17
+      android:
+        apiLevel: 34
+    triggering:
+      events:
+        - push
+        - tag
+        - pull_request
+      branches:
+        include:
+          - main
+          - master
+          - develop
+    cache:
+      cache_paths:
+        - ~/.gradle/caches
+        - ~/.gradle/wrapper
+    scripts:
+      - name: Set up Java
+        script: |
+          java -version
+      - name: Build with Gradle
+        script: |
+          ./gradlew assembleDebug --stacktrace
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
+    publishing:
+      email:
+        recipients:
+          - atif.ahmed@example.com
+        success: true
+        failure: true

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_medium"
+    android:layout_marginVertical="@dimen/margin_small"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium">
+
+        <!-- Teacher Profile Image -->
+        <ImageView
+            android:id="@+id/imgTeacher"
+            android:layout_width="@dimen/avatar_large"
+            android:layout_height="@dimen/avatar_large"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_teacher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/primary" />
+
+        <!-- Verified Badge -->
+        <ImageView
+            android:id="@+id/imgVerified"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:src="@drawable/ic_verified"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/imgTeacher"
+            app:layout_constraintEnd_toEndOf="@id/imgTeacher"
+            tools:ignore="ContentDescription" />
+
+        <!-- Teacher Name -->
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_subtitle"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/txtRating"
+            app:layout_constraintStart_toEndOf="@id/imgTeacher"
+            app:layout_constraintTop_toTopOf="@id/imgTeacher"
+            tools:text="Sheikh Ahmad />
+
+        <!-- Qualification" -->
+        <TextView
+            android:id="@+id/txtQualification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_tiny"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgTeacher"
+            app:layout_constraintTop_toBottomOf="@id/txtName"
+            tools:text="Hafiz, Tajweed Expert" />
+
+        <!-- Experience -->
+        <TextView
+            android:id="@+id/txtExperience"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_tiny"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgTeacher"
+            app:layout_constraintTop_toBottomOf="@id/txtQualification"
+            tools:text="10 years experience" />
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_tiny"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/text_body"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_verified"
+            app:drawableTint="@color/accent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtName"
+            tools:text="4.9" />
+
+        <!-- Students Count -->
+        <TextView
+            android:id="@+id/txtStudents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_small"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgTeacher"
+            tools:text="150 students" />
+
+        <!-- Book Class Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBookClass"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teacher_book_class"
+            android:textSize="@dimen/text_small"
+            app:cornerRadius="@dimen/button_corner_radius"
+            app:layout_constraintBottom_toBottomOf="@id/txtStudents"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtStudents" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

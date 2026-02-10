@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Atif Quran Academy</string>
+    <string name="app_tagline">Learn Quran Online</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_courses">Courses</string>
+    <string name="nav_teachers">Teachers</string>
+    <string name="nav_classes">Classes</string>
+    <string name="nav_contact">Contact</string>
+    <string name="nav_admin">Admin</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_welcome">Welcome to</string>
+    <string name="splash_app_name">Atif Quran Academy</string>
+    <string name="splash_subtitle">Learn Quran with Expert Teachers</string>
+
+    <!-- Home Screen -->
+    <string name="home_welcome">Assalamu Alaikum</string>
+    <string name="home_title">Learn Quran Online</string>
+    <string name="home_subtitle">Join our verified teachers for authentic Islamic education</string>
+    <string name="home_enroll_now">Enroll Now</string>
+    <string name="home_view_courses">View Courses</string>
+    <string name="home_featured_courses">Featured Courses</string>
+    <string name="home_top_teachers">Top Teachers</string>
+    <string name="home_why_choose_us">Why Choose Us</string>
+    <string name="home_feature_verified">Verified Teachers</string>
+    <string name="home_feature_online">Online Classes</string>
+    <string name="home_feature_flexible">Flexible Schedule</string>
+    <string name="home_feature_affordable">Affordable Fees</string>
+
+    <!-- Courses Screen -->
+    <string name="courses_title">Our Courses</string>
+    <string name="courses_subtitle">Choose the course that suits your needs</string>
+    <string name="course_noorani_qaida">Noorani Qaida</string>
+    <string name="course_nazra_quran">Nazra Quran</string>
+    <string name="course_hifz_quran">Hifz Quran</string>
+    <string name="course_tajweed">Tajweed Rules</string>
+    <string name="course_tafsir">Tafsir Quran</string>
+    <string name="course_arabic_language">Arabic Language</string>
+    <string name="course_islamic_studies">Islamic Studies</string>
+    <string name="course_ijazah">Ijazah Course</string>
+    <string name="course_enroll">Enroll Now</string>
+    <string name="course_details">Course Details</string>
+    <string name="course_duration">Duration</string>
+    <string name="course_fee">Monthly Fee</string>
+    <string name="course_level">Level</string>
+    <string name="course_beginner">Beginner</string>
+    <string name="course_intermediate">Intermediate</string>
+    <string name="course_advanced">Advanced</string>
+
+    <!-- Teachers Screen -->
+    <string name="teachers_title">Our Teachers</string>
+    <string name="teachers_subtitle">Learn from qualified and verified teachers</string>
+    <string name="teacher_verified">Verified Teacher</string>
+    <string name="teacher_unverified">Unverified</string>
+    <string name="teacher_experience">Experience</string>
+    <string name="teacher_specialization">Specialization</string>
+    <string name="teacher_courses">Courses</string>
+    <string name="teacher_students">Students</string>
+    <string name="teacher_rating">Rating</string>
+    <string name="teacher_book_class">Book Class</string>
+    <string name="teacher_view_profile">View Profile</string>
+
+    <!-- Registration Screen -->
+    <string name="registration_title">Student Registration</string>
+    <string name="registration_subtitle">Fill in your details to enroll</string>
+    <string name="registration_student_name">Student Name</string>
+    <string name="registration_parent_name">Parent Name</string>
+    <string name="registration_age">Age</string>
+    <string name="registration_gender">Gender</string>
+    <string name="registration_male">Male</string>
+    <string name="registration_female">Female</string>
+    <string name="registration_email">Email Address</string>
+="registration_phone">Phone Number</string>
+    <string name="registration_country">Country</string>
+    <string name="registration_course">Select Course</string>
+    <string name="registration_timing">Preferred Timing</string>
+    <string name="registration_submit">Submit Registration</string>
+    <string name="registration_success">Registration submitted successfully!</string>
+    <string name="registration_error">Error submitting registration</string>
+
+    <!-- Teacher Registration -->
+    <string name="teacher_registration_title">Teacher Registration</string>
+    <string name="teacher_registration_subtitle">Apply to become a teacher</string>
+    <string name="teacher_registration_name">Full Name</string>
+    <string name="teacher_registration_qualification">Qualification</string>
+    <string name="teacher_registration_experience">Years of Experience</string>
+    <string name="teacher_registration_cnic">CNIC/Passport Number</string>
+    <string name="teacher_registration_certificate">Upload Certificates</string>
+    <string name="teacher_registration_video">Introduction Video</string>
+    <string name="teacher_registration_submit">Submit Application</string>
+
+    <!-- Classes Screen -->
+    <string name="classes_title">Online Classes</string>
+    <string name="classes_subtitle">Join live Quran classes</string>
+    <string name="classes_live_now">Live Now</string>
+    <string name="classes_upcoming">Upcoming Classes</string>
+    <string name="classes_recorded">Recorded Lectures</string>
+    <string name="classes_join">Join Class</string>
+    <string name="classes_starting">Starting</string>
+    <string name="classes_duration">Duration</string>
+    <string name="classes_teacher">Teacher</string>
+    <string name="classes_no_classes">No classes scheduled</string>
+    <string name="classes_view_all">View All Classes</string>
+
+    <!-- Fee & Payment -->
+    <string name="fee_title">Fee Plans</string>
+    <string name="fee_subtitle">Affordable learning for everyone</string>
+    <string name="fee_monthly">Monthly</string>
+    <string name="fee_quarterly">Quarterly</string>
+    <string name="fee_yearly">Yearly</string>
+    <string name="fee_per_month">/month</string>
+    <string name="fee_payment_proof">Upload Payment Proof</string>
+    <string name="fee_payment_submitted">Payment proof submitted</string>
+    <string name="fee_payment_pending">Payment verification pending</string>
+    <string name="fee_bank_details">Bank Details</string>
+
+    <!-- Contact Screen -->
+    <string name="contact_title">Contact Us</string>
+    <string name="contact_subtitle">Get in touch with us</string>
+    <string name="contact_whatsapp">WhatsApp</string>
+    <string name="contact_call">Call Us</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_address">Address</string>
+    <string name="contact_social">Social Media</string>
+    <string name="contact_facebook">Facebook</string>
+    <string name="contact_instagram">Instagram</string>
+    <string name="contact_youtube">YouTube</string>
+    <string name="contact_send_message">Send Message</string>
+    <string name="contact_your_name">Your Name</string>
+    <string name="contact_your_message">Your Message</string>
+    <string name="contact_send">Send</string>
+    <string name="contact_message_sent">Message sent successfully!</string>
+
+    <!-- Admin Screen -->
+    <string name="admin_title">Admin Dashboard</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="admin_username">Username</string>
+    <string name="admin_password">Password</string>
+    <string name="admin_login_button">Login</string>
+    <string name="admin_logout">Logout</string>
+    <string name="admin_teachers">Manage Teachers</string>
+    <string name="admin_students">Manage Students</string>
+    <string name="admin_courses">Manage Courses</string>
+    <string name="admin_payments">Verify Payments</string>
+    <string name="admin_pending_verification">Pending Verifications</string>
+    <string name="admin_approve">Approve</string>
+    <string name="admin_reject">Reject</string>
+    <string name="admin_delete">Delete</string>
+    <string name="admin_edit">Edit</string>
+    <string name="admin_add">Add New</string>
+    <string name="admin_total_teachers">Total Teachers</string>
+    <string name="admin_total_students">Total Students</string>
+    <string name="admin_total_courses">Total Courses</string>
+    <string name="admin_pending_payments">Pending Payments</string>
+
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms & Conditions</string>
+
+    <!-- Validation Messages -->
+    <string name="validation_required">This field is required</string>
+    <string name="validation_invalid_email">Invalid email address</string>
+    <string name="validation_invalid_phone">Invalid phone number</string>
+    <string name="validation_min_length">Minimum %d characters required</string>
+    <string name="validation_max_length">Maximum %d characters allowed</string>
+
+    <!-- Messages -->
+    <string name="msg_no_internet">No internet connection</string>
+    <string name="msg_try_again">Something went wrong. Please try again.</string>
+    <string name="msg_success">Success!</string>
+    <string name="msg_coming_soon">Coming Soon!</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_app_logo">App Logo</string>
+    <string name="cd_course_image">Course Image</string>
+    <string name="cd_teacher_image">Teacher Profile Picture</string>
+    <string name="cd_verified_badge">Verified Teacher Badge</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_back">Go Back</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_search">Search</string>
+</resources>

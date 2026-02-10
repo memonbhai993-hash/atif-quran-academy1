@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.quranacademy.atifquranapp.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_registration"
+            app:destination="@id/registrationFragment" />
+
+        <action
+            android:id="@+id/action_home_to_course_detail"
+            app:destination="@id/courseDetailFragment" />
+
+        <action
+            android:id="@+id/action_home_to_teacher_detail"
+            app:destination="@id/teacherDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_courses"
+        android:name="com.quranacademy.atifquranapp.ui.courses.CoursesFragment"
+        android:label="@string/nav_courses"
+        tools:layout="@layout/fragment_courses">
+
+        <action
+            android:id="@+id/action_courses_to_detail"
+            app:destination="@id/courseDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_teachers"
+        android:name="com.quranacademy.atifquranapp.ui.teachers.TeachersFragment"
+        android:label="@string/nav_teachers"
+        tools:layout="@layout/fragment_teachers">
+
+        <action
+            android:id="@+id/action_teachers_to_detail"
+            app:destination="@id/teacherDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_classes"
+        android:name="com.quranacademy.atifquranapp.ui.classes.ClassesFragment"
+        android:label="@string/nav_classes"
+        tools:layout="@layout/fragment_classes" />
+
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="com.quranacademy.atifquranapp.ui.contact.ContactFragment"
+        android:label="@string/nav_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.quranacademy.atifquranapp.ui.registration.RegistrationFragment"
+        android:label="Registration"
+        tools:layout="@layout/fragment_registration" />
+
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.quranacademy.atifquranapp.ui.courses.CourseDetailFragment"
+        android:label="Course Details"
+        tools:layout="@layout/fragment_course_detail">
+
+        <argument
+            android:name="courseId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/teacherDetailFragment"
+        android:name="com.quranacademy.atifquranapp.ui.teachers.TeacherDetailFragment"
+        android:label="Teacher Details"
+        tools:layout="@layout/fragment_teacher_detail">
+
+        <argument
+            android:name="teacherId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

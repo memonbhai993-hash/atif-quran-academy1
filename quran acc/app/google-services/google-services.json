@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613806260917",
+    "project_id": "atif-quran-academy",
+    "storage_bucket": "atif-quran-academy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613806260917:android:dc230a5f0d358b75b674fc",
+        "android_client_info": {
+          "package_name": "com.quranacademy.atifquranapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVsVHvewqJ8edP_q3AwwVU5AELlWE0pCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
